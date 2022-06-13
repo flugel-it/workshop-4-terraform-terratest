@@ -8,7 +8,7 @@ These are the requirements for this module.
 
 |    | Terraform |
 |:--:|-----------|
-| >= |   1.0.11   |
+| >= |   1.0.11  |
 
 |    |    AWS    |
 |:--:|-----------|
@@ -19,7 +19,7 @@ These are the requirements for this module.
 
 ```hcl
 module "s3-bucket" {
-  source  = "github.com/flugel-it/workshop-4-terraform-terratest/module"
+  source  = "github.com/flugel-it/workshop-4-terraform-terratest"
 
   bucket                 = "flugel-workshop-bucket"
   tags = {
