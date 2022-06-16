@@ -14,7 +14,7 @@ variable "tags" {
   description = "A map of tags to assign to the resource."
   type        = map(any)
   default = {
-    Name        = "Flugel's bucket"
+    Name        = "diegotest"
     Environment = "Dev"
   }
 }
