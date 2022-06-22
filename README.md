@@ -19,7 +19,7 @@ These are the requirements for this module.
 
 ```hcl
 module "s3-bucket" {
-  source  = "git@github.com:flugel-it/workshop-s3.git?ref=v1.0"
+  source  = "git@github.com:flugel-it/workshop-s3.git"
 
   bucket                 = "flugel-workshop-bucket"
   tags = {
