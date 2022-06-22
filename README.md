@@ -19,7 +19,7 @@ These are the requirements for this module.
 
 ```hcl
 module "s3-bucket" {
-  source  = "github.com/flugel-it/workshop-4-terraform-terratest"
+  source  = "git@github.com:flugel-it/workshop-s3.git?ref=v1.0"
 
   bucket                 = "flugel-workshop-bucket"
   tags = {
