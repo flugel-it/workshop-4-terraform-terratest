@@ -41,6 +41,6 @@ func Test(t *testing.T) {
 	Tag := terraform.Output(t, terraformOptions, "bucket_tag")
 
 	// Check that we get back the outputs that we expect
-	assert.Contains(t, Tag, "Flugel's bucket")
+	assert.Contains(t, Tag, "diegotest")
 
 }
